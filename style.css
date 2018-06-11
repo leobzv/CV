@@ -1,0 +1,199 @@
+body{
+	background-color: lightgrey; 
+}
+.container{
+	margin: 0 auto;
+	max-width: 800px;
+	background: white;
+}
+.line-space{
+	border-bottom: 2px solid lightgrey;
+	padding: 0px;
+	padding-top: 2%;
+}
+.row {
+	  clear: both;
+}
+.profile-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  top: 20px;
+  margin-bottom: 16px;
+}
+.col-sm-ofset-3-5{
+  margin-left: 35%;
+ }
+.titulo-principal {
+  color: #006eff;
+  margin-bottom: 5px;
+}
+.font-blue {
+	color: #006eff;
+}
+.fondo-div{
+	background: white;
+	border-radius:5px;
+}
+
+.col-offset-2{
+	margin-left: 20%;
+}
+
+[class=col-]{
+  float: left;
+}
+.titulo{
+    text-align: center;
+    padding-top: 0%;
+    
+}
+.skills {
+  text-align: right;
+  padding-right: 12px;
+  line-height: 16px;
+  color: white;
+  border-radius: 4px;
+}
+
+.html {
+	width: 90%; 
+	background-color: #4CAF50;
+	text-align: left;
+}
+.css {
+	width: 80%; 
+	background-color: #2196F3;
+	text-align: left;
+}
+.ruby	 {
+	width: 65%; 
+	background-color: #f44336;
+	text-align: left;
+}
+.php {
+	width: 60%; 
+	background-color: #808080;
+	text-align: left;
+}
+/*-----Estilos Medium-----*/
+@media(max-width: 1366px){
+
+  .nombre{
+    padding-top: 2%;
+  }
+  .col-lg-1{
+    width: 10%;
+  }
+  .col-lg-2{
+    width: 20%;
+  }
+  .col-lg-3{
+    width: 30%;
+  }
+  .col-lg-4{
+    width: 40%;
+  }
+  .col-lg-5{
+    width: 50%;
+  }
+  .col-lg-6{
+    width: 60%;
+  }
+  .col-lg-7{
+    width: 70%;
+  }
+  .col-lg-8{
+    width: 80%;
+  }
+  .col-lg-9{
+    width: 90%;
+  }
+  .col-lg-10{
+    width: 100%;
+  }
+  .col-lg-ofset-1{
+    margin-left: 10%;
+  }
+}
+
+
+
+
+/*-----Estilos Medium-----*/
+@media(max-width: 768px){
+
+	.nombre{
+		padding-top: 2%;
+	}
+	.col-md-1{
+		width: 10%;
+	}
+	.col-md-2{
+		width: 20%;
+	}
+	.col-md-3{
+		width: 30%;
+	}
+	.col-md-4{
+		width: 40%;
+	}
+	.col-md-5{
+		width: 50%;
+	}
+	.col-md-6{
+		width: 60%;
+	}
+	.col-md-7{
+		width: 70%;
+	}
+	.col-md-8{
+		width: 80%;
+	}
+	.col-md-9{
+		width: 90%;
+	}
+	.col-md-10{
+		width: 100%;
+	}
+	.col-md-ofset-1{
+		margin-left: 10%;
+	}
+}
+
+
+@media(max-width: 480px){
+  .col-sm-1{
+      width: 10%;
+    }
+    .col-sm-2{
+      width: 20%;
+    }
+    .col-sm-3{
+      width: 30%;
+    }
+    .col-sm-4{
+      width: 40%;
+    }
+    .col-sm-5{
+      width: 50%;
+    }
+    .col-sm-6{
+      width: 60%;
+    }
+    .col-sm-7{
+      width: 70%;
+    }
+    .col-sm-8{
+      width: 80%;
+    }
+    .col-sm-9{
+      width: 90%;
+    }
+    .col-sm-10{
+      width: 100%;
+    }
+}
